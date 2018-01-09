@@ -1,4 +1,4 @@
-FROM golang:1.8
+FROM golang:1.9.2
 
 ARG app_env
 ENV APP_ENV $app_env
