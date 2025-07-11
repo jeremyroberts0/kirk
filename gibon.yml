@@ -1,0 +1,16 @@
+# Gibon validation commands for Kirk project
+
+# Install dependencies (Go doesn't have a standard dependency file, using go get)
+dependencies: go get ./...
+
+# No code generation step found in this project
+# generate: 
+
+# No linting configuration found in this project
+# lint: 
+
+# No test files found in this project
+# unit: 
+
+# Build the Go application
+build: go build .
