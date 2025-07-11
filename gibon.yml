@@ -1,0 +1,8 @@
+dependencies: go get ./...
+build: go build
+docker-build: docker build -t kirk .
+docker-run: docker-compose up
+docker-run-detached: docker-compose up -d
+docker-stop: docker-compose down
+run: go run main.go
+dev: docker-compose up
